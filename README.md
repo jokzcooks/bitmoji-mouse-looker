@@ -1,4 +1,7 @@
-#A React Component containing a Bitmoji whose eyes follow the mouse cursor.
+# Bitmoji Mouse Looker
+---
+
+### A React Component containing a Bitmoji whose eyes follow the mouse cursor.
 
 *Created to be added to my new portfolio website.
 
