@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bitmojiWrapper {
+  width: 200px;
+  aspect-ratio: 1/1.305;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bitmojiWrapper > .avatar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.bitmojiWrapper > .eye {
+  top: 40%;
+  height: 8%;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+}
+
+.bitmojiWrapper > .eye.left {
+  left: 25%;
+}
+
+.bitmojiWrapper > .eye.right {
+  left: 58%;
 }
